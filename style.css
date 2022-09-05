@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.retanguloazul{
+    display: flex;
+    width: 300px;
+    height: 100vh;
+    align-self: end;
+    z-index: -1;
+    position: absolute;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+header{
+    margin-top: 80px;
+    height: 52px;
+}
+.logonike{
+    width: 118px;
+    height: 42px;
+}
+.umtitulo{
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 28px;
+    gap: 78px;
+    grid-column: 9/10;
+
+}
+
+.setas{
+    grid-row: 1;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    grid-column: 10/12;
+    text-align: left;
+}
+.retangulo{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    grid-column: 13/-1;
+}
+.retangulo1{
+
+    width: 36px;
+    height: 5px;
+}
+.retangulo2{
+    width: 36px;
+    height: 5px;
+}
+.retangulo3{
+    width: 36px;
+    height: 5px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: (2, 0);
+    margin-left: 60px;
+}
+main{
+    flex-grow: 1;
+}
+
+.imagemtenes{
+    place-self: end;
+}
+footer{
+    background-color: teal;
+}
