@@ -95,13 +95,14 @@ main{
     place-self: end;
     height: 727px;
     width: 700px;
-    padding-left: -473px;
+    padding-top: 0px;
+    padding-bottom: 300px;
+    padding-left: -500px;
     margin-right: 27px;
-    place-self: end;
 }
 .imagemtenis{
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 footer{
     background-color: teal;
