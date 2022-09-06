@@ -11,12 +11,12 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
 }
 .retanguloazul{
     display: flex;
     width: 300px;
-    height: 100vh;
+    height: 100%;
     align-self: end;
     z-index: -1;
     position: absolute;
@@ -82,15 +82,26 @@ header{
 }
 .grid2{
     display: grid;
-    grid-template-columns: (2, 0);
+    grid-template-columns: (3, 1fr);
     margin-left: 60px;
+    padding-bottom: 0;
+    height: 100%;
 }
 main{
     flex-grow: 1;
 }
-
 .imagemtenes{
+    grid-column: 3;
     place-self: end;
+    height: 727px;
+    width: 700px;
+    padding-left: -473px;
+    margin-right: 27px;
+    place-self: end;
+}
+.imagemtenis{
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 footer{
     background-color: teal;
