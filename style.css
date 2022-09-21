@@ -122,10 +122,33 @@ main{
     gap: 2px;
 }
 .pre-order-container{
+    width: 191px;
+    height: auto;
     font-family: 'Oswald', sans-serif;
     grid-row: 1;
     grid-column: 2;
-    place-self: left;
+    padding-top: 70.31vh;
+    display: flex;
+    gap: 10px;
+}
+.pre-order-image{
+    height: 32px;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+}
+.balls-container{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8.37vh;
+    padding-top: 13vh;
+    place-self: start;
+    justify-content: center;
+    align-items: center;
+}
+.black-ball-image{
+    height: 15px;
 }
 footer{
     background-color: teal;
