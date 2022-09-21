@@ -96,8 +96,13 @@ main{
     position: absolute;
 }
 .imagetenis{
-    height: 550px;
+    height: 490px;
     margin-bottom: 20vh;
+}
+.shadow{
+    grid-row: 1;
+    grid-column: 3;
+    z-index: -1;
 }
 .descricao-container{
     grid-column: 3;
@@ -127,9 +132,10 @@ main{
     font-family: 'Oswald', sans-serif;
     grid-row: 1;
     grid-column: 2;
-    padding-top: 70.31vh;
+    padding-top: 70vh;
     display: flex;
     gap: 10px;
+    margin-bottom: 20px;
 }
 .pre-order-image{
     height: 32px;
@@ -151,5 +157,10 @@ main{
     height: 15px;
 }
 footer{
-    background-color: teal;
+    height: 150vh;
+    font-family: 'Oswald', sans-serif;
+}
+.copyright{
+    display: flex;
+    margin-left: 8vh;
 }
