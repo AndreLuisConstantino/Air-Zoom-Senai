@@ -108,12 +108,7 @@ main {
 
 .imagetenis {
     height: 60vh;
-}
 
-.shadow {
-    grid-row: 1;
-    grid-column: 3;
-    z-index: -1;
 }
 
 .descricao-container {
