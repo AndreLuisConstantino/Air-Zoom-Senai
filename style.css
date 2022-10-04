@@ -1,5 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@AndreLuisConstantino 
+luizgustavo2006
+/
+Tenis-Andr-
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Tenis-Andr-/style.css
+@amorimgustavo
+amorimgustavo Primeiro commit
+Latest commit daeef63 3 minutes ago
+ History
+ 1 contributor
+194 lines (166 sloc)  2.83 KB
 
 * {
     padding: 0;
@@ -124,7 +148,6 @@ main {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     flex-direction: column;
-    align-items: center;
     padding-left: 52vw;
     padding-top: 7vw;
 }
@@ -137,12 +160,13 @@ main {
     padding-left: 13vw;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .line {
     display: flex;
     height: 2px;
-    width: 124px;
+    width: 235px;
     justify-content: center;
     align-items: center;
 
@@ -153,12 +177,19 @@ main {
     gap: 2px;
     justify-content: center;
     align-items: center;
-    padding-left: 6.5vw;
 }
 
-pre-order-container{
+.pre-order-container {
     grid-column: 1;
     grid-row: 1;
+}
+
+.pre-order-img {
+    position: absolute;
+    width: 12vw;
+    height: 6vh;
+    left: 8.5vw;
+    bottom: 31vh;
 }
 
 .balls-container {
@@ -178,8 +209,10 @@ pre-order-container{
 }
 
 footer {
-    height: 150vh;
+    height: 20vh;
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .copyright {
