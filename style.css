@@ -136,7 +136,7 @@ main {
 .line {
     display: flex;
     height: 2px;
-    width: 235px;
+    width: 224px;
     justify-content: center;
     align-items: center;
 
@@ -147,6 +147,7 @@ main {
     gap: 2px;
     justify-content: center;
     align-items: center;
+
 }
 
 .pre-order-container {
